@@ -1,0 +1,294 @@
+//<b>Latihan2.1</b><br><br>
+
+<html>
+    <head>
+        <title> Menyisipkan Elemen Berupa Text</title>
+    </head>
+    <body>
+        <font type= arial black font size="6"> Data diri</font>
+        <br>
+        <font ty=arial size="5">
+            nama: <input type="text" name="nama">
+            <br>
+            nim: <input type="text" name="nim" value="" maxlength="9"size="9">
+        </font>
+    </body>
+
+</html>
+
+<br><br>
+
+//<b>Latihan2.2</b><br><br>
+
+<html>
+    <head>
+        <title>Input Password</title>
+    </head>
+    <body>
+        Password: <input type="password" name="nama" size="11" maxlength="9">
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan2.3</b><br><br>
+
+<html>
+    <head>
+        <title>Penggunaan Radio Button</title>
+    </head>
+    <body>
+        Jenis Kelamin: 
+        <br>
+        <input type="radio" name="jenis_kelamin" value="L">Laki-laki
+        <br>
+        <input type="radio" name="jenis_kelamin" value="P">Perempuan
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan2.4</b><br><br>
+
+<html>
+    <head>
+        <title>Penggunaan Check Box</title>
+    </head>
+    <body>
+        Sebutkan hobi anda, boleh lebih dari satu: 
+        <br>
+        <input type="checkbox" name="hobi_1" value="menonton"> menonton
+        <input type="checkbox" name="hobi_2" value="game"> bermain game
+        <input type="checkbox" name="hobi_3" value="shopping"> shopping
+        <input type="checkbox" name="hobi_4" value="mancing"> memancing
+        <input type="checkbox" name="hobi_5" value="olahraga"> olahraga
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan2.5</b><br><br>
+
+<html>
+    <head>
+        <title>Konfigurasi Button</title>
+    </head>
+    <body>
+        <form>
+        Sebutkan hobi anda, boleh lebih dari satu: 
+        <br>
+        <input type="submit" value="kirim" name="submit">
+        <br><br>
+        <input type="reset" value="ulangi" name="reset">
+        <br><br>
+        <input type="button" value="batal" name="cancel">
+        <br><br>
+        <input type="image" value="gambar" img src="lamborghini/lambo.jpg" width="194" height="90">
+        <br>
+        </form>
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan2.6</b><br><br>
+
+<html>
+    <head>
+        <title>Membuat Text Area</title>
+    </head>
+    <body>
+        Deskripsi Diri:
+        <br>
+        <textarea name="Deskripsi" cols="45" rows="5" align="center">Tuliskan deskripsi singkat tentang anda</textarea>
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan2.7</b><br><br>
+
+<html>
+    <head>
+        <title>Menggunakan Menu Dropdown</title>
+    </head>
+    <body>
+        <img src="lamborghini/lambo.jpg" align="right">
+    </br>
+    Silahkan pilih orientasi minat:
+    <br>
+    <select name="Orientasi Minat">
+        <option value="dg">Design Grafis</option>
+        <option value="pj">Programmer Java</option>
+        <option value="sa">Sistem Analis</option>
+        <option value="ds">Dagelan Saja</option>
+    </select>
+    <br>
+    <br>
+    <select name="Orientasi Kemampuan" multiple>
+        <option value="dg">Design Grafis</option>
+        <option value="pj">Programmer Java</option>
+        <option value="sa">Sistem Analis</option>
+        <option value="aj">Ahli Jaringan</option>
+        <option value="it">Trainer IT</option>
+        <option value="ds">Dagelan Saja</option>
+    </select>
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan2.8</b><br><br>
+
+<html>
+    <head>
+        <title> Pembuatan Tabel</title>
+    </head>
+    <body>
+        <font face="tahoma" size="3" color="blue"></font>
+            <table border="0.8">
+                <caption align="top" <b><u> Daftar Alamat</u></b></caption>
+            <tr bgcolor=blue align="center">
+                <td width="40">No.</td>
+                <td width="150">Nama</td>
+                <td width="200">Alamat</td>
+            </tr>
+            <tr bgcolor=skyblue>
+                <td align="center">1.</td>
+                <td>Abdul Malik</td>
+                <td>Serang</td>
+            </tr>
+            <tr bgcolor=orange>
+                <td align="center">2.</td>
+                <td>Renaldi</td>
+                <td>Cianjur</td>
+            </tr>
+            <tr bgcolor=skyblue>
+                <td align="center">3.</td>
+                <td>Kiran</td>
+                <td>Serang</td>
+            </tr>
+            <tr bgcolor=orange>
+                <td align="center">4.</td>
+                <td>Ejaz</td>
+                <td>Cimahi</td>
+            </tr>
+            </table>
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan2.9</b><br><br>
+
+<html>
+    <head>
+        <title> Pembuatan Tabel</title>
+    </head>
+    <body>
+            <table border="3" cellspacing="3" cellpadding="5">
+                <caption> Daftar Order Ikan</caption>
+            <th> No</th>
+            <th> Ikan</th>
+            <th> Species</th>
+            <th> Harga</th>
+            <th> Jumlah</th>
+            <th> Total Harga</th>
+
+            <tr>
+                <td align="center">1.</td>
+                <td>Lutjanus spp</td>
+                <td>Sebae</td>
+                <td>Rp. 10.000</td>
+                <td align="right">5</td>
+                <td>Rp.50.000</td>
+            </tr>
+            <tr>
+                <td align="center">2.</td>
+                <td>Lutjanus spp</td>
+                <td>Argentimaculatus</td>
+                <td>Rp. 15.000</td>
+                <td align="right">3</td>
+                <td>Rp.45.000</td>
+            </tr>
+
+            <tr>
+                <td align="center">3.</td>
+                <td>Lutjanus spp</td>
+                <td>Fulviflama</td>
+                <td>Rp. 5.000</td>
+                <td align="right">10</td>
+                <td>Rp.50.000</td>
+            </tr>
+
+            <tr>
+                <td align="center">4.</td>
+                <td>Lutjanus spp</td>
+                <td>Bohar</td>
+                <td>Rp. 20.000</td>
+                <td align="right">5</td>
+                <td>Rp.100.000</td>
+            </tr>
+
+            <tr>
+                <td align="center">5.</td>
+                <td>Lutjanus spp</td>
+                <td>Gibbus</td>
+                <td>Rp. 15.000</td>
+                <td align="right">5</td>
+                <td>Rp.75.000</td>
+            </tr>
+            <tr height=30 bordercolor="red">
+                <td colspan="5" bgcolor="gray"></td>
+            </tr>
+            </table>
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan2.10</b><br><br>
+
+<html>
+    <head>
+        <title> Sisipan Gambar Dalam Tabel</title>
+    </head>
+    <body>
+            <table border="2">
+                <caption> Dokumen Pemotretan</caption>
+            <tr>
+                <th> 1.</th>
+                <th> 2.</th>
+                <th> 3.</th>
+            </tr>
+
+            <tr align="center">
+                <td>Bike-Mount</td>
+                <td>Bike-Modelling</td>
+                <td>Bike-Concept</td>
+            </tr>
+            <tr>
+                <td align="center"> <img src="lamborghini/lambo.jpg" width="200" height="200"></td>
+                <td align="center"> <img src="lamborghini/lambo.jpg" width="200" height="200"></td>
+                <td align="center"> <img src="lamborghini/lambo.jpg" width="200" height="200"></td>
+            </tr>
+            </table>
+    </body>
+</html>
+
+<br><br>
+
+//<b>Latihan Frame</b><br><br>
+
+<html>
+    <head>
+        <title> Menggunakan Frame</title>
+    </head>
+    <iframeset rows="200">
+        <iframe src="header.html" scrolling="no" name="atas"></iframe>
+    </iframeset>
+    </iframeset cols="250">
+        <iframe src="menu.html" name="kiri"></frame>
+        <iframe src="Menu_Utama.html" name="main"></iframe>
+    </iframeset>
+</html>
